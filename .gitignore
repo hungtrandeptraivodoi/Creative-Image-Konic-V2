@@ -1,0 +1,20 @@
+# Dependencies & build
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Env & secrets (constitution IX) — only .env.example is committed
+.env
+.env.*
+!.env.example
+
+# Supabase local
+supabase/.branches/
+supabase/.temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

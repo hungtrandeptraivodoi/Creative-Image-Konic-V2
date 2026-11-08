@@ -1,0 +1,292 @@
+{
+  "$schemaVersion": "1.0",
+  "brand": {
+    "name": "Print Your Wear Magazine",
+    "storeName": "Print Your Wear",
+    "url": "https://magazine.printyourwear.com/",
+    "storeUrl": "https://www.printyourwear.com",
+    "market": "US (some Canada)",
+    "location": "Chicago, IL",
+    "support": "support@printyourwear.com",
+    "asOf": "2026-11-08",
+    "nameUsage": {
+      "store": "Print Your Wear",
+      "blog": "Print Your Wear Magazine",
+      "neverInReaderCopy": ["PrintYourWear", "PYW"]
+    }
+  },
+  "positioning": {
+    "summary": "Editorial arm of a POD store. Sells meaning first and printed apparel second; every article helps the reader understand a culture, prepare for an occasion, or choose a gift.",
+    "promise": "Every article helps readers pick what truly tells their story, not just another shirt.",
+    "mission": "Help readers choose better through practical guidance on fabrics, colors, design clarity and styling.",
+    "values": ["Longevity", "Ethics", "Emotionally meaningful design", "Research-driven", "Transparent", "Quality over trends"],
+    "taglines": {
+      "magazine": "Crafted for Meaning. Built for Longevity!",
+      "brand": ["Wear Your Story.", "Choose Better."],
+      "product": "Make it yours. Wear your identity."
+    },
+    "homepageMetaTitle": "Print Your Wear Magazine | Culture, Style, Thoughtful Gifts",
+    "roleVsStore": "SEO / TOFU-MOFU channel feeding the store via 'Shop now' CTAs with blog UTM tags.",
+    "voiceTension": "About page is refined and concierge-like; blog posts are friendly, practical and lightly funny. The blog voice is the standard; borrow About-page vocabulary in moderation."
+  },
+  "audience": {
+    "summary": "American adults preparing for a specific occasion and short on time; they want ideas they can use right away.",
+    "personas": [
+      { "name": "Busy gift-giver", "who": "Buying for mom, best friend, coworkers, teachers, Jeep owners", "worry": "Generic gift, buying wrong, arriving late", "categories": ["gift-guides", "how-to"] },
+      { "name": "Parent / party host", "who": "Kids' birthdays, Friendsgiving, Halloween, picnics", "worry": "Too much to organize, budget, a boring party", "categories": ["occasions", "lifestyle", "how-to"] },
+      { "name": "Teachers & school community", "who": "67th Day of School, back-to-school, teacher appreciation", "worry": "Ideas that are fun yet classroom-safe", "categories": ["how-to", "fashion", "occasions"] },
+      { "name": "Identity-proud reader", "who": "Patriot, America250, Juneteenth, Jeep community, book lovers", "worry": "Expressing it right, not cliched", "categories": ["culture", "fashion"] },
+      { "name": "Group that wants to match", "who": "Families, couples, travel groups, teams", "worry": "Matching without looking exactly alike", "categories": ["fashion"] },
+      { "name": "Wishes / caption seeker", "who": "Writing cards and social posts", "worry": "Not knowing what to write that sounds like them", "categories": ["occasions", "how-to"] }
+    ],
+    "aboutPageSegments": [
+      { "name": "Perfectionists", "need": "Quality benchmarks", "status": "Underserved" },
+      { "name": "Enthusiasts", "need": "Meaning and belonging", "status": "Served" },
+      { "name": "Gift-givers", "need": "Specific gift guidance", "status": "Served" }
+    ]
+  },
+  "voice": {
+    "standard": "A knowledgeable, warm, practical friend: says plainly what you should do, jokes lightly at the right moment, never sounds like a sales pitch.",
+    "attributes": [
+      { "name": "Warm", "is": "Close, appreciative of the moment and the recipient", "isNot": "Sappy, overly emotional, long-winded" },
+      { "name": "Practical", "is": "Every idea comes with something concrete to do: size, color, budget, timing", "isNot": "Generic lists, SEO filler" },
+      { "name": "Playful", "is": "Light humor through slogans, wordplay, trending memes", "isNot": "Biting sarcasm, jokes about identity or pain" },
+      { "name": "Considered", "is": "Well researched, sourced, disclaimers where needed", "isNot": "Hype, unsupported 'best' or 'guaranteed'" }
+    ],
+    "toneScale": {
+      "legend": "1 = serious/neutral, 5 = fun/familiar",
+      "byCategory": {
+        "culture": { "fun": "2", "pov": "Neutral third person; 'you' in tips and FAQ", "notes": "Educational, respectful, nuanced; one first-person reflection set apart" },
+        "how-to": { "fun": "3-4", "pov": "'You' + imperatives (Choose, Add, Leave)", "notes": "Make the task easier; humor in titles and captions" },
+        "lifestyle": { "fun": "3", "pov": "'You' + imperatives", "notes": "Calm, safety-minded, reassuring (Easy, Beginner-Friendly)" },
+        "occasions": { "fun": "4", "pov": "'You'; sample wishes use 'I'", "notes": "Celebratory, planning-focused; little promotion in the body" },
+        "fashion": { "fun": "4-5", "pov": "'You'; one 'I like...' passage allowed", "notes": "Upbeat, funny slogans, advice on fit and fabric" },
+        "gift-guides": { "fun": "3", "pov": "'You', rarely 'we'", "notes": "Reassuring: personal, useful, not generic" }
+      }
+    },
+    "writingRules": [
+      "Short sentences, mostly under 20 words; paragraphs of 2-4 sentences.",
+      "Answer the search intent in the first 1-2 paragraphs, then reassure.",
+      "Give readers a short bolded formula they can remember.",
+      "Humor lives in slogans, examples and captions, never in safety advice or factual event information.",
+      "When a joke is edgier, pair it with audience advice.",
+      "Culture and Occasions close on a light reflection; How To, Lifestyle and Fashion close on one actionable takeaway, then the FAQ."
+    ]
+  },
+  "categories": [
+    {
+      "slug": "culture",
+      "name": "Culture",
+      "url": "https://magazine.printyourwear.com/blogs/culture",
+      "funnel": "TOFU",
+      "job": "The stories, symbols and communities behind what people wear",
+      "metaTitle": "Culture & Identity Stories Through Custom Apparel",
+      "tags": ["American Culture", "Patriot", "Thanksgiving", "Juneteenth", "Flag Day", "250th Anniversary", "Origin"],
+      "signatureFormat": "'What Is...?', History, listicles with exact counts; 'At a Glance' table; inline sources",
+      "commerceLevel": "low",
+      "productCards": "0 in body"
+    },
+    {
+      "slug": "how-to",
+      "name": "How To",
+      "url": "https://magazine.printyourwear.com/blogs/how-to",
+      "funnel": "TOFU-MOFU",
+      "job": "Get clear answers before you order: decor, monthly/seasonal quotes, checklists, task guides",
+      "metaTitle": "How to Choose Personalized Apparel & Gifts",
+      "tags": ["Best Quotes", "Quotes of the month", "Birthday", "Halloween", "Patriot", "School Celebrations"],
+      "signatureFormat": "Occasion templates; repeated entry structure (hex palette, Key Pieces, Focal Point)",
+      "commerceLevel": "low-medium",
+      "productCards": "Up to 1 block per major section when relevant"
+    },
+    {
+      "slug": "lifestyle",
+      "name": "Lifestyle",
+      "url": "https://magazine.printyourwear.com/blogs/lifestyle",
+      "funnel": "TOFU-MOFU",
+      "job": "Real-life living: everyday family activities, travel, camping, book clubs",
+      "metaTitle": "Lifestyle Gift & Apparel Ideas for Every Community",
+      "tags": ["Activities", "Outdoor & Adventure"],
+      "signatureFormat": "Checklists, printable tables, step-by-step, 'Complete' guides",
+      "commerceLevel": "low",
+      "productCards": "0-1 soft block at the end"
+    },
+    {
+      "slug": "occasions",
+      "name": "Occasions",
+      "url": "https://magazine.printyourwear.com/blogs/occasions",
+      "funnel": "TOFU-MOFU",
+      "job": "Plan meaningful moments: birthdays, Father's Day, Friendsgiving, America250; occasion wishes and captions",
+      "metaTitle": "Custom Outfit Ideas for Birthdays, Graduation & More",
+      "tags": ["Birthday", "Father's Day", "250th Anniversary"],
+      "signatureFormat": "'Ideas for Every Kind of Celebration'; 120+/220+/300+ messages and captions",
+      "commerceLevel": "low",
+      "productCards": "0-1 soft block at the end"
+    },
+    {
+      "slug": "fashion",
+      "name": "Fashion",
+      "url": "https://magazine.printyourwear.com/blogs/fashion",
+      "funnel": "MOFU-BOFU",
+      "job": "Shirts, hoodies, matching outfits for self-expression, gifting, everyday wear; 'what to wear on X'",
+      "metaTitle": "Personalized Apparel Ideas: Custom Shirts, Hoodies & More",
+      "tags": ["Outfit Ideas", "Patriot", "Birthday", "Thanksgiving", "Book Lover", "Women's Fashion", "Men's Fashion"],
+      "signatureFormat": "Themed sections: bold label -> italic slogan -> design note -> styling tip; product cards after each section",
+      "commerceLevel": "high",
+      "productCards": "1 block per H2 or H3 group"
+    },
+    {
+      "slug": "gift-guides",
+      "name": "Gift Guides",
+      "url": "https://magazine.printyourwear.com/blogs/gift-guides",
+      "funnel": "MOFU-BOFU",
+      "job": "Personalized gifts by recipient, occasion and meaning",
+      "metaTitle": "Personalized Gift Ideas for Every Moment",
+      "tags": ["Gift Ideas", "Personalized Gifts", "Birthday", "Family Life Moments", "Back to school"],
+      "signatureFormat": "'Gifts for [recipient]'; comparison table by budget; How to Choose + What Not to Buy",
+      "commerceLevel": "high",
+      "productCards": "1 block per H2 or H3 group"
+    }
+  ],
+  "categoryBoundaries": [
+    { "topic": "Wishes, captions, quotes tied to an occasion", "category": "occasions" },
+    { "topic": "Monthly/seasonal quotes and task guides", "category": "how-to" },
+    { "topic": "What to wear on X", "category": "fashion" },
+    { "topic": "Ideas / party / activities for an occasion", "category": "occasions" },
+    { "topic": "Everyday activities not tied to an occasion", "category": "lifestyle" },
+    { "topic": "What Is / History (memes included)", "category": "culture" }
+  ],
+  "clusterModel": {
+    "rule": "Cover a seasonal topic as a cluster across categories and interlink siblings.",
+    "example": { "topic": "Jeep", "path": ["culture: jeep-history", "fashion: jeep-shirts", "gift-guides: gifts-for-jeep-owners", "gift-guides: personalized-jeep-gifts"] }
+  },
+  "headlines": {
+    "patterns": [
+      { "pattern": "[Number] + [Keyword] + [benefit]", "bestFor": ["all"], "example": "20 Thanksgiving Table Decor Ideas That Make the Most of Your Dinnerware, Colors, and Space" },
+      { "pattern": "Choice question -> answer", "bestFor": ["fashion", "gift-guides"], "example": "Bold Flags, Vintage Americana, or Something Subtle? How to Pick the Right Patriotic Hoodies" },
+      { "pattern": "Hook: keyword subtitle", "bestFor": ["fashion", "occasions"], "example": "Pie Lovers, Turkey Fans & Grateful Hearts: Thanksgiving Shirt Ideas for Turkey Day" },
+      { "pattern": "'What Is...?' / '...History'", "bestFor": ["culture"], "example": "Jeep History: From WWII Origins to Modern SUVs" },
+      { "pattern": "Gifts for [recipient] + qualifier", "bestFor": ["gift-guides"], "example": "15 Teacher Gift Ideas That Feel Personal Without Going Overboard" },
+      { "pattern": "Pain point -> rescue", "bestFor": ["how-to", "occasions"], "example": "Not Sure What to Write? Start With 120+ Father's Day Messages for Every Kind of Dad" }
+    ],
+    "rules": [
+      "Primary keyword within the first 60 characters; SEO title <= 60 characters.",
+      "Use exact counts and make the body deliver that count.",
+      "Add the year only to trend- or season-driven topics, and refresh it yearly.",
+      "Approved qualifiers: personal, useful, thoughtful, practical, for every..., actually (max once per headline set)."
+    ]
+  },
+  "articleStructure": {
+    "skeleton": [
+      "H1 + author byline",
+      "Intro of 2 short paragraphs: answer the intent, then reassure",
+      "Optional 'At a Glance' / 'Before You ...' callout table",
+      "Clickable table of contents",
+      "H2s by theme or style; numbered H3 entries with a repeated template",
+      "'How to Choose' and/or 'What Not to Buy / Avoid' section",
+      "One closing takeaway line or short reflection (no generic recap)",
+      "FAQ: H3 questions, bold one-sentence answer, then detail",
+      "Author box + 'See my guides' / 'Join our Community'"
+    ],
+    "formatting": {
+      "boldLeadIns": true,
+      "slogansStyle": "italic in quotes",
+      "emojiCallouts": { "💡": "Sizing or style tips", "📌": "Buying, timing or booking tips" },
+      "emojiOtherwise": "none",
+      "images": "Every image has a tip-adding caption and descriptive alt text",
+      "headingCase": "sentence case for H2",
+      "tables": "Comparisons (budget, recipient, trip type) with a 'Why it matters' or 'What to consider' column",
+      "hexPalettes": "Allowed in decor/style entries"
+    },
+    "sentenceLength": { "targetMaxWords": 20, "paragraphSentences": "2-4" }
+  },
+  "authors": [
+    { "name": "Elena Sterling", "expertise": "Gift psychology", "bestFit": ["gift-guides"] },
+    { "name": "Marcus V.", "expertise": "10+ years in personalized apparel: fabrics, sizing, trends", "bestFit": ["fashion", "how-to (apparel)"] },
+    { "name": "Amalia Thompson", "expertise": "Community / lifestyle voice", "bestFit": ["occasions", "lifestyle"] }
+  ],
+  "commerce": {
+    "principle": "Products follow the advice; they never replace it. Product blocks appear only after the guidance they illustrate.",
+    "productCard": ["image", "short caption", "star rating", "'Starting at' price", "product-name link"],
+    "buttonLabels": ["Product name", "SHOP NOW", "VIEW MORE"],
+    "bannerCtas": ["Find the Perfect Gift!", "Discover the perfect style!", "Explore Occasion Ideas!", "Get Style Inspiration!", "Start With a Buying Guide!"],
+    "globalCta": { "label": "Shop now", "placement": "header", "homepageTarget": "https://www.printyourwear.com/collections/best-selling-products" },
+    "utm": { "utm_source": "blog", "utm_medium": "<placement>", "utm_campaign": "magazine-pyw" },
+    "thirdPartyBrands": "Allowed when genuinely helpful, always with compatibility caveats",
+    "priceDisclaimer": "These are general shopping ranges, not verified current prices.",
+    "authorBoxCta": ["See my guides", "Join our Community"]
+  },
+  "editorialStandards": {
+    "policyUrl": "https://magazine.printyourwear.com/pages/editorial-policy",
+    "sources": "Prefer official PYW product and policy pages, official holiday or event sites, reputable publications; cite inline at the claim.",
+    "factCheck": ["product names", "availability", "sizes and materials", "holiday dates", "shipping statements", "external references"],
+    "aiUse": "Allowed for ideas, outlines, drafts, headings, internal links; human review required before publishing.",
+    "sourceOfTruth": "The store, for price, availability and policies; time-sensitive details must never read as permanent.",
+    "disclosure": "Disclose affiliate or sponsored relationships where they exist.",
+    "bannedTone": ["overly promotional language", "fake urgency", "false certainty", "unsupported 'best' or 'guaranteed' claims"],
+    "qualityClaims": "No 'premium cotton', 'made in USA' or similar unless the product page states it.",
+    "corrections": "Report an Issue page or support@printyourwear.com"
+  },
+  "sensitiveTopics": [
+    { "topic": "Memorial / sympathy, family loss", "do": "Gentle, short, practical; no humor", "dont": "Use grief as a sales hook" },
+    { "topic": "Military remembrance", "do": "Respectful; check facts and dates", "dont": "Joke slogans, 'sale' framing" },
+    { "topic": "Race, heritage, identity", "do": "Nuanced, sourced, people-first language", "dont": "Stereotypes, flattening a culture into one image" },
+    { "topic": "Religious holidays", "do": "Inclusive, descriptive", "dont": "Assume every reader celebrates" },
+    { "topic": "Health, relationship status, age", "do": "Neutral, opt-in humor", "dont": "Jokes that shame or exclude" },
+    { "topic": "Patriot / political symbols", "do": "Celebrate shared symbols and history", "dont": "Partisan positions" }
+  ],
+  "vocabulary": {
+    "use": ["personal", "personalized", "thoughtful", "useful", "practical", "easy", "meaningful", "keepsake", "story", "for every [occasion]", "matching without looking exactly alike", "make it yours", "wear your story"],
+    "useSparingly": ["considered", "intentional", "signature", "PYW Standard", "expression with intention", "emotionally resonant", "art-ified life", "concierge-like"],
+    "avoid": ["must-have", "insane", "crazy deal", "best ever", "guaranteed", "#1", "limited time only (unless true)", "cheap", "knock-off", "premium cotton (unless verified)", "made in USA (unless verified)", "gendered or age-shaming jokes"],
+    "microcopy": [
+      "Don't know much about X? No problem.",
+      "Start with the name, add one memory, then close with a hope.",
+      "Does this sound like something I would actually say?",
+      "Pack for the route, not just the destination."
+    ]
+  },
+  "knownGaps": [
+    { "id": 1, "priority": "high", "gap": "Lifestyle meta description promises pet lovers, parents, teachers, outdoor fans, everyday humor; live posts cover activities and outdoor only", "fix": "Rewrite meta to match content, or publish posts that match the meta" },
+    { "id": 2, "priority": "high", "gap": "Birthday wishes split across How To and Occasions; 67th Day of School across Occasions, Fashion and How To", "fix": "Apply categoryBoundaries; one hub per topic, interlinked" },
+    { "id": 3, "priority": "high", "gap": "Lifestyle has 5 posts vs ~20 in other categories", "fix": "Expand with cookouts, reunions, community events" },
+    { "id": 4, "priority": "medium", "gap": "About page voice differs from blog voice", "fix": "Keep blog voice as standard; soften About copy" },
+    { "id": 5, "priority": "medium", "gap": "Promised 'How-To Laboratory' (textiles, DTG vs screen print, care, fit) barely exists", "fix": "Add a fabric/print/care sub-series by Marcus V." },
+    { "id": 6, "priority": "medium", "gap": "Author topic mismatch (gift-psychology author on table decor)", "fix": "Map authors to categories; add a decor/home persona" },
+    { "id": 7, "priority": "low", "gap": "No visible affiliate disclosure where third-party brands appear", "fix": "One-line disclosure under the intro" }
+  ],
+  "visualIdentity": {
+    "status": "unknown",
+    "note": "Theme color field is empty on the pages read; pull colors, fonts and logo rules from Shopify theme settings."
+  },
+  "prePublishChecklist": [
+    "Article sits in the right category per categoryBoundaries and links to its cluster siblings",
+    "Headline uses an approved pattern; SEO title <= 60 characters with the keyword up front",
+    "Intro answers the intent in 2 short paragraphs, then reassures",
+    "Tone matches the category level; humor stays in slogans, examples and captions",
+    "Listicle count in the headline equals the count in the body",
+    "Product blocks only follow related guidance; commerce intensity matches the category",
+    "Every store link carries the blog UTM parameters",
+    "Prices shown as ranges with a disclaimer; no unverified material or origin claims",
+    "Facts, dates and statistics checked against official or reputable sources and linked inline",
+    "Sensitive-topic rules applied where relevant",
+    "FAQ, image captions and alt text present; only 💡 and 📌 callouts",
+    "Author matches the category; human review done on any AI-assisted draft"
+  ],
+  "sources": [
+    "https://magazine.printyourwear.com/",
+    "https://magazine.printyourwear.com/blogs/culture",
+    "https://magazine.printyourwear.com/blogs/fashion",
+    "https://magazine.printyourwear.com/blogs/how-to",
+    "https://magazine.printyourwear.com/blogs/lifestyle",
+    "https://magazine.printyourwear.com/blogs/occasions",
+    "https://magazine.printyourwear.com/blogs/gift-guides",
+    "https://magazine.printyourwear.com/pages/about-us",
+    "https://magazine.printyourwear.com/pages/editorial-policy",
+    "https://magazine.printyourwear.com/blogs/gift-guides/gifts-for-jeep-owners",
+    "https://magazine.printyourwear.com/blogs/culture/thanksgiving-traditions",
+    "https://magazine.printyourwear.com/blogs/fashion/thanksgiving-shirt-ideas",
+    "https://magazine.printyourwear.com/blogs/occasions/birthday-wishes-quotes",
+    "https://magazine.printyourwear.com/blogs/how-to/thanksgiving-table-decor-ideas",
+    "https://magazine.printyourwear.com/blogs/lifestyle/road-trip-packing-list"
+  ]
+}
